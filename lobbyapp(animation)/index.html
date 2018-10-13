@@ -1,0 +1,75 @@
+<html>
+
+<head>
+
+	<title>Party Invitation</title>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Examples for creative website header animations using Canvas and JavaScript">
+	<meta name="keywords" content="header, canvas, animated, creative, inspiration, javascript">
+	<meta name="author" content="Codrops">
+
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/demo.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/component.css">
+	<!-- <link href="https://fonts.googleapis.com/css?family=Raleway:200,400,800" rel="stylesheet" type="text/css"> -->
+
+	<script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script>
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-7243260-2']);
+		_gaq.push(['_trackPageview']);
+		(function () {
+			var ga = document.createElement('script');
+			ga.type = 'text/javascript';
+			ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" type="text/css" href="https://tympanus.net/codrops/adpacks/demoadpacks.css?1538473447567">
+	<!--<script id="_carbonads_projs" type="text/javascript" src="//srv.carbonads.net/ads/CKYIK53I.json?segment=placement:codrops&amp;callback=_carbonads_go"></script>-->
+<!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+</head>
+
+<body>
+	<div id="large-header" class="large-header" style="height: 100%;">
+		<canvas id="demo-canvas" width="1920" height="100%"></canvas>
+		<div class="main-title">
+			<div class="info-container">
+				<span class="info-header"><img onclick="ShowETA()" style="width:100px;margin-bottom:-5px;margin-left:30px;" src="img/Uber.png" alt=""></span>
+				<span class="info">
+						<ul>
+							<li style="font-size:18px">ESTIMATED ARRIVAL TIME OF UBER DRIVER</li>
+							<li><p id="time" style="font-weight: bold;">time</p></li>
+						</ul>
+					</span>
+				<span class="info">
+					<ul>
+						<li style="font-size:18px">CURRENT RATE</li>
+						<li><p id="rate" style="font-weight: bold;">rate</p></li>
+					</ul>
+				</span>
+			</div>
+		</div>
+		<div class="info_text">Sample Rider fares are estimates only and do not reflect variations due to discounts, 
+			traffic delays or other factors. Flat rates and minimum fares may apply. Actual Rider fares may vary. 
+			US Partners:Rates used to calculate partner fares are published at partners.uber.com and require an active partner account to view.</div>
+	</div>
+	<script src="js/jquery-2.1.1.min.js"></script>
+	<script src="js/uber.js"></script>
+	<!-- <script src="js/demoad.js"></script> -->
+	<script src="js/EasePack.min.js"></script>
+	<script src="js/rAF.js"></script>
+	<script src="js/TweenLite.min.js"></script>
+	<script src="js/demo.js"></script>
+</body>
+
+</html>
